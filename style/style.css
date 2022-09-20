@@ -108,3 +108,17 @@ a.primary-link:hover
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
+footer .contact-box {
+  display: block;
+  margin: 0 auto;
+  background: var(--second-color);
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+.gitLink {
+  color:var(--first-color);
+  text-decoration: none;
+}
+.gitLink:hover{
+  color:white;
+}
