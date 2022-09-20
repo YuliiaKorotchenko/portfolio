@@ -26,6 +26,16 @@ h2,
 h3 {
   font-size: 40px;
 }
+h3{
+  display: block;  
+  letter-spacing: 0.05em;
+  font-size: 20px !important;
+  border-bottom: 1px solid var(--first-color);
+  margin-top: 20px !important;;
+  margin-bottom: 10px;
+  padding-bottom: 10px; 
+  
+}
 
 
 
@@ -54,13 +64,18 @@ h3 {
 }
 
 .email {
-  display: flex;
+  
   justify-content: center;
   color: var(--first-color);
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
 }
-
+.contact-me:hover,
+.about-me:hover,
+a.primary-link:hover
+{  
+  color: var(--second-color);
+}
 .email:hover {
   color: var(--first-color);
   text-decoration: underline;
@@ -68,9 +83,7 @@ h3 {
 .resume-title a{
   text-decoration: none;
   color: var(--first-color);
-
 }
-
 
 .primary-link {
   border-radius: 4px;
