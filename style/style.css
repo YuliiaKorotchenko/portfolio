@@ -122,3 +122,8 @@ footer .contact-box {
 .gitLink:hover{
   color:white;
 }
+
+.content h1 {
+  font-size: 65px;
+  line-height: 80px;
+  }
