@@ -127,3 +127,16 @@ footer .contact-box {
   font-size: 65px;
   line-height: 80px;
   }
+  .content-container {
+    padding: 160px 20px;
+}
+.content h2, p, a {text-align: left;  
+}
+#github{
+  color: var(--first-color);
+}
+.content a:hover,
+#github:hover{
+  color: var(--second-color);
+  transition: all 100ms ease-in-out;
+}
